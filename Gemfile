@@ -33,7 +33,7 @@ gem 'haml'
 
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 1.1.3'
   gem 'factory_girl_rails'
 end
 # To use ActiveModel has_secure_password
